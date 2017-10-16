@@ -3,6 +3,8 @@ package com.spring.hackathon.domain;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 @Document(collection="User123")
 public class User {
 	@Id
