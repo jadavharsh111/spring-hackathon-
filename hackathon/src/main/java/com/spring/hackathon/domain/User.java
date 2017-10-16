@@ -1,6 +1,11 @@
 package com.spring.hackathon.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Document(collection="User123")
 public class User {
+	@Id
 	private int userid;
 	private String name;
 	private String email;
