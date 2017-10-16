@@ -1,5 +1,8 @@
 package com.spring.hackathon.services;
 
-public interface UserService {
+import com.spring.hackathon.domain.User;
 
+public interface UserService {
+		
+	public void addUser(User user);
 }
